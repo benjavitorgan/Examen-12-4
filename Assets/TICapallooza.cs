@@ -41,7 +41,7 @@ public class TICapallooza : MonoBehaviour
         {
             cant_total = cant_campo + cant_platea;
 
-            Debug.Log("La cantidad de entradas de campo que se vendieron es: " +cant_campo+ " y la cantidad de entradas de platea que se vendieron es: " +cant_platea+ ". En total, se vendieron:" + cant_total + " entradas.");
+            Debug.Log("La cantidad que se recaudo por entradas de campo que se vendieron es: " +cant_campo * 1200 + " y la cantidad que se recaudo por entradas de platea que se vendieron es: " +cant_platea * 2000+ ". En total, se recaudo:" + (cant_campo * 1200) + (cant_platea * 2000)+ " entradas.");
 
             cap_vacante = cap_maxima_total - cant_total;
 
